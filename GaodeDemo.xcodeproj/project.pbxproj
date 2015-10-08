@@ -14,6 +14,22 @@
 		C35228E31BC63CF100CC7981 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35228E21BC63CF100CC7981 /* Images.xcassets */; };
 		C35228E61BC63CF100CC7981 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C35228E41BC63CF100CC7981 /* LaunchScreen.xib */; };
 		C35228F21BC63CF100CC7981 /* GaodeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C35228F11BC63CF100CC7981 /* GaodeDemoTests.m */; };
+		C35229011BC640DE00CC7981 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35229001BC640DE00CC7981 /* UIKit.framework */; };
+		C35229031BC640EE00CC7981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35229021BC640EE00CC7981 /* Foundation.framework */; };
+		C35229051BC640F700CC7981 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35229041BC640F700CC7981 /* CoreGraphics.framework */; };
+		C35229071BC640FE00CC7981 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35229061BC640FE00CC7981 /* QuartzCore.framework */; };
+		C35229091BC6410600CC7981 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35229081BC6410600CC7981 /* OpenGLES.framework */; };
+		C352290B1BC6410D00CC7981 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C352290A1BC6410D00CC7981 /* CoreLocation.framework */; };
+		C352290D1BC6411600CC7981 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C352290C1BC6411600CC7981 /* CoreTelephony.framework */; };
+		C352290F1BC6411E00CC7981 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C352290E1BC6411E00CC7981 /* SystemConfiguration.framework */; };
+		C35229111BC6412600CC7981 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C35229101BC6412600CC7981 /* libz.dylib */; };
+		C35229131BC6413C00CC7981 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C35229121BC6413C00CC7981 /* libstdc++.6.0.9.dylib */; };
+		C35229151BC6414400CC7981 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35229141BC6414400CC7981 /* Security.framework */; };
+		C352291B1BC644C100CC7981 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C35229181BC644C100CC7981 /* AMap.bundle */; };
+		C352291C1BC644C100CC7981 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35229191BC644C100CC7981 /* AMapSearchKit.framework */; };
+		C352291D1BC644C100CC7981 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C352291A1BC644C100CC7981 /* MAMapKit.framework */; };
+		C35229211BC6614400CC7981 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C352291F1BC6614400CC7981 /* DetailViewController.m */; };
+		C35229221BC6614400CC7981 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C35229201BC6614400CC7981 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +56,23 @@
 		C35228EB1BC63CF100CC7981 /* GaodeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaodeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35228F01BC63CF100CC7981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C35228F11BC63CF100CC7981 /* GaodeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaodeDemoTests.m; sourceTree = "<group>"; };
+		C35229001BC640DE00CC7981 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C35229021BC640EE00CC7981 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C35229041BC640F700CC7981 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C35229061BC640FE00CC7981 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C35229081BC6410600CC7981 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C352290A1BC6410D00CC7981 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C352290C1BC6411600CC7981 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C352290E1BC6411E00CC7981 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C35229101BC6412600CC7981 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C35229121BC6413C00CC7981 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		C35229141BC6414400CC7981 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C35229181BC644C100CC7981 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+		C35229191BC644C100CC7981 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		C352291A1BC644C100CC7981 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		C352291E1BC6614400CC7981 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C352291F1BC6614400CC7981 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C35229201BC6614400CC7981 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +80,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C35229151BC6414400CC7981 /* Security.framework in Frameworks */,
+				C35229131BC6413C00CC7981 /* libstdc++.6.0.9.dylib in Frameworks */,
+				C35229111BC6412600CC7981 /* libz.dylib in Frameworks */,
+				C352290F1BC6411E00CC7981 /* SystemConfiguration.framework in Frameworks */,
+				C352290D1BC6411600CC7981 /* CoreTelephony.framework in Frameworks */,
+				C352290B1BC6410D00CC7981 /* CoreLocation.framework in Frameworks */,
+				C35229091BC6410600CC7981 /* OpenGLES.framework in Frameworks */,
+				C35229071BC640FE00CC7981 /* QuartzCore.framework in Frameworks */,
+				C352291C1BC644C100CC7981 /* AMapSearchKit.framework in Frameworks */,
+				C35229051BC640F700CC7981 /* CoreGraphics.framework in Frameworks */,
+				C35229031BC640EE00CC7981 /* Foundation.framework in Frameworks */,
+				C352291D1BC644C100CC7981 /* MAMapKit.framework in Frameworks */,
+				C35229011BC640DE00CC7981 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +109,7 @@
 		C35228C91BC63CF100CC7981 = {
 			isa = PBXGroup;
 			children = (
+				C35229171BC6423400CC7981 /* Framework */,
 				C35228D41BC63CF100CC7981 /* GaodeDemo */,
 				C35228EE1BC63CF100CC7981 /* GaodeDemoTests */,
 				C35228D31BC63CF100CC7981 /* Products */,
@@ -81,10 +128,17 @@
 		C35228D41BC63CF100CC7981 /* GaodeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C35228FB1BC63EAD00CC7981 /* Library */,
+				C35229181BC644C100CC7981 /* AMap.bundle */,
+				C35229191BC644C100CC7981 /* AMapSearchKit.framework */,
+				C352291A1BC644C100CC7981 /* MAMapKit.framework */,
 				C35228D91BC63CF100CC7981 /* AppDelegate.h */,
 				C35228DA1BC63CF100CC7981 /* AppDelegate.m */,
 				C35228DC1BC63CF100CC7981 /* ViewController.h */,
 				C35228DD1BC63CF100CC7981 /* ViewController.m */,
+				C352291E1BC6614400CC7981 /* DetailViewController.h */,
+				C352291F1BC6614400CC7981 /* DetailViewController.m */,
+				C35229201BC6614400CC7981 /* DetailViewController.xib */,
 				C35228DF1BC63CF100CC7981 /* Main.storyboard */,
 				C35228E21BC63CF100CC7981 /* Images.xcassets */,
 				C35228E41BC63CF100CC7981 /* LaunchScreen.xib */,
@@ -117,6 +171,31 @@
 				C35228F01BC63CF100CC7981 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C35228FB1BC63EAD00CC7981 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		C35229171BC6423400CC7981 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				C35229141BC6414400CC7981 /* Security.framework */,
+				C35229001BC640DE00CC7981 /* UIKit.framework */,
+				C35229021BC640EE00CC7981 /* Foundation.framework */,
+				C35229041BC640F700CC7981 /* CoreGraphics.framework */,
+				C35229061BC640FE00CC7981 /* QuartzCore.framework */,
+				C35229081BC6410600CC7981 /* OpenGLES.framework */,
+				C352290A1BC6410D00CC7981 /* CoreLocation.framework */,
+				C352290C1BC6411600CC7981 /* CoreTelephony.framework */,
+				C352290E1BC6411E00CC7981 /* SystemConfiguration.framework */,
+				C35229121BC6413C00CC7981 /* libstdc++.6.0.9.dylib */,
+				C35229101BC6412600CC7981 /* libz.dylib */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +280,8 @@
 			files = (
 				C35228E11BC63CF100CC7981 /* Main.storyboard in Resources */,
 				C35228E61BC63CF100CC7981 /* LaunchScreen.xib in Resources */,
+				C35229221BC6614400CC7981 /* DetailViewController.xib in Resources */,
+				C352291B1BC644C100CC7981 /* AMap.bundle in Resources */,
 				C35228E31BC63CF100CC7981 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +303,7 @@
 				C35228DE1BC63CF100CC7981 /* ViewController.m in Sources */,
 				C35228DB1BC63CF100CC7981 /* AppDelegate.m in Sources */,
 				C35228D81BC63CF100CC7981 /* main.m in Sources */,
+				C35229211BC6614400CC7981 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,9 +428,19 @@
 		C35228F61BC63CF100CC7981 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)\n￼$(ARCHS_STANDARD_32_BIT)。\n￼",
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GaodeDemo",
+				);
 				INFOPLIST_FILE = GaodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -356,9 +448,18 @@
 		C35228F71BC63CF100CC7981 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)\n￼$(ARCHS_STANDARD_32_BIT)。\n￼",
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GaodeDemo",
+				);
 				INFOPLIST_FILE = GaodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
